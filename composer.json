@@ -1,0 +1,19 @@
+{
+    "name": "myvendor/myproject",
+    "description": "My awesome PHP project",
+    "type": "project",
+    "authors": [
+      {
+        "name": "John Doe",
+        "email": "john@example.com"
+      }
+    ],
+    "require": {
+      "monolog/monolog": "^2.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.0"
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+  }
