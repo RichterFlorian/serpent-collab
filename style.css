@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+input, button{
+    border-radius: 7px;
+    border: #afafaf solid 1px;
+    padding: 5px;
+}
+
+table td{
+    border :1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.conteneur table{
+    margin-bottom: 10px;
+}
