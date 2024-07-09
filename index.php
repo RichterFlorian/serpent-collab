@@ -39,14 +39,15 @@
     }
     else{
         ?>
+            <h1>Jeu du serpent</h1>
             <form class="form" action="" method="post">
                 <div>
                     <label for="joueur1">joueur 1</label>
-                    <input type="text" name="joueur1" id="joueur1">
+                    <input type="text" name="joueur1" id="joueur1" required>
                 </div>
                 <div>
                     <label for="joueur2">joueur 2</label>
-                    <input type="text" name="joueur2" id="joueur2">
+                    <input type="text" name="joueur2" id="joueur2" required>
                 </div>
                 <input type="submit" value="Valider">
             </form>
